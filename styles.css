@@ -52,3 +52,74 @@
     display: flex;
     justify-content: space-around;
 }
+#Display {
+    display: flex;
+    width: 1000px;
+    height: 296px;
+    padding-left: 238px;
+    padding-top: 17px;
+    padding-right: 42px;
+    padding-bottom: 18px;
+}
+#DisplayLeft {
+    width: 597px;
+    height: 166px;
+    padding-right: 18px;
+}
+#Posts {
+    width: 597px;
+    height: 19px;
+}
+#Input {
+    width: 577px;
+    height: 82px;
+    padding: 9px;
+    border-radius: 3px;
+    border: 1px solid;
+    border-color: rgb(238, 238, 238);
+    border-bottom-color: rgb(221, 221, 221);
+}
+#FormattingGuide {
+    width: 569px;
+    height: 51px;
+    padding: 3px;
+    border: 1px;
+    border-radius: 2px;
+    margin-bottom: 3px;
+}
+#DisplayRight {
+    width: 367px;
+    height: 137px;
+    padding-left: 18px;
+}
+#Follow {
+    width: 367px;
+    height: 24px;
+    margin-bottom: 36px;
+}
+#Counter {
+    width: 367px;
+    height: 41px;
+    display: flex;
+    justify-content: space-around; 
+}
+#Following {
+    width: 59.42px;
+    height: 41px;
+    margin-right: 18px;
+}
+#Followers {
+    width: 59.42px;
+    height: 41px;
+    margin-right: 18px;
+}
+#Footer {
+    width: 1216px;
+    height: 17px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-right: 32px;
+    padding-left: 32px;
+    border-bottom-color: rgb(108, 108, 108);
+    color: rgb(108, 108, 108);
+}
