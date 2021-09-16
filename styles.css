@@ -4,15 +4,21 @@
     height: 42px;
     padding-left: 18px;
     padding-right: 18px;
+
+    justify-content: space-between;
+    border: lightcoral 2px;
 }
 #NavHeaderLeft {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-around;;
+   border: rgb(2, 2, 0) 3px solid;
 }
 #NavHeaderRight {
     display: flex;
     justify-content: flex-end;
     justify-content: space-around;
+    justify-content: right;
+    border: tomato 3px solid;
 }
 #Banner {
     display: flex;
@@ -20,62 +26,134 @@
     height: 27px;
     margin-left: 18px;
     margin-bottom: 15px;
+    border: turquoise 3px solid;
 }
 #SiteNav {
     display: flex;
-    width: 1244px;
+    width: 1262px;
     height: 29px;
     padding-left: 18px;
     padding-right: 18px;
+    text-align: right;
+    border: solid 3px violet;
+    text-decoration: whitesmoke;
+}
+#Online {
+    width: 1090px;
+    height: 19px;
+    display: flex;
+    text-align: right;
+    border: solid 3px rgb(9, 224, 99);
+    align-items: flex-end;
+    
 }
 #MainBody {
+    width: 1243px;
+    padding-left: 18px;
+    padding-right: 18px;
     display: flex;
+    flex-direction: row;
+    justify-content: right;
+    border: solid 3px yellow;
+
+}
+#Columns {
+    width: 1243px;
+    display: flex;
+    border: solid 3px blue;
+    padding-left: 18px;
+    padding-right: 18px;
+
+}
+#ColumnLeft {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+
+}
+#ColumnRight {
+    width: 1043px;
+    display: flex;
+    flex-direction: column;
 }
 #PhotoBox {
     width: 160px;
     height: 200px;
+    display: flex;
+    flex-direction: column;
+    border: solid 3px green;
+    justify-content: flex-end;  
 }
+#Meat {
+    width: 1090px;
+    display: flex;
+    flex-direction: column;
+    border: solid 3px orange;
+}
+
 #NamePlate {
-    display: flex;;
+    display: flex;
+    flex-direction: column;
+    
+    border: solid 3px red;
+
+
 }
 #Person {
-    width: 1208px;
+    width: 1090px;
     height: 33px;
     padding-top: 24px;
     margin-bottom: 2px;
+    border: solid 3px darkolivegreen;
+    display: flex;
+
+
 }
 #Title {
-    width: 1208px;
+    width: 1090px;
     height: 19px;
+    border: solid 3px goldenrod;
+
 }
 #Tabs {
+    width: 1090px;
     display: flex;
-    justify-content: space-around;
+    border: solid 3px lawngreen;
+    ;
+    
 }
 #Display {
     display: flex;
-    width: 1000px;
+    flex-direction: column;
+    width: 1050px;
     height: 296px;
-    padding-left: 238px;
     padding-top: 17px;
     padding-right: 42px;
     padding-bottom: 18px;
+    border: solid 3px rgb(130, 238, 184);
+
 }
 #DisplayLeft {
     width: 597px;
     height: 166px;
     padding-right: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: solid 3px rgb(192, 9, 168);
+
 }
 #Posts {
     width: 597px;
     height: 19px;
+    border: solid 3px rgba(246, 198, 7, 0.963);
 }
 #Input {
     width: 577px;
     height: 82px;
     padding: 9px;
     border-radius: 3px;
-    border: 1px solid;
+    border: 1px solid plum;
     border-color: rgb(238, 238, 238);
     border-bottom-color: rgb(221, 221, 221);
 }
@@ -86,18 +164,22 @@
     border: 1px;
     border-radius: 2px;
     margin-bottom: 3px;
+    border: solid 3px rgb(221, 11, 228);
 }
 #DisplayRight {
     width: 367px;
     height: 137px;
     padding-left: 18px;
+    display: flex;
+    flex-wrap: wrap;
+    border: solid 3px rgb(17, 232, 71);
 }
 #Follow {
     width: 367px;
     height: 24px;
     margin-bottom: 36px;
 }
-#Counter {
+#Stats {
     width: 367px;
     height: 41px;
     display: flex;
@@ -122,4 +204,14 @@
     padding-left: 32px;
     border-bottom-color: rgb(108, 108, 108);
     color: rgb(108, 108, 108);
+    vertical-align: baseline;
+    display: flex;
+    justify-content: center;
+}
+#Vert {
+    display: flex;
+}
+#InputBody {
+    display: flex;
+    flex-direction: column;
 }
