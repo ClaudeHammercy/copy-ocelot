@@ -1,0 +1,54 @@
+#NavHeader {
+    display: flex;
+    width: 1244px;
+    height: 42px;
+    padding-left: 18px;
+    padding-right: 18px;
+}
+#NavHeaderLeft {
+    display: flex;
+    justify-content: space-around;
+}
+#NavHeaderRight {
+    display: flex;
+    justify-content: flex-end;
+    justify-content: space-around;
+}
+#Banner {
+    display: flex;
+    width: 1262px;
+    height: 27px;
+    margin-left: 18px;
+    margin-bottom: 15px;
+}
+#SiteNav {
+    display: flex;
+    width: 1244px;
+    height: 29px;
+    padding-left: 18px;
+    padding-right: 18px;
+}
+#MainBody {
+    display: flex;
+}
+#PhotoBox {
+    width: 160px;
+    height: 200px;
+}
+#NamePlate {
+    display: flex;;
+}
+#Person {
+    width: 1208px;
+    height: 33px;
+    padding-top: 24px;
+    margin-bottom: 2px;
+}
+#Title {
+    width: 1208px;
+    height: 19px;
+}
+#Tabs {
+    display: flex;
+    justify-content: space-around;
+}
